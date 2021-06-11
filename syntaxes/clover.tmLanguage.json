@@ -1,0 +1,46 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Clover",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.clover",
+				"match": "\\b(include|from|as|end|model|implement|apply|to|public|function|this|local|if|elseif|else|for|in|break|while|return|true|false|null)\\b"
+			}, {
+				"name": "keyword.operator.clover",
+				"match": "\\b(and|or|not)\\b"
+			}, {
+				"name": "keyword.other",
+				"match": "\\b(include|from|as|end|model|implement|apply|to|public|function|this|local|true|false|null)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.clover",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.clover",
+					"match": "\\\\."
+				}
+			]
+		},
+		"comments": {
+			"name": "comment.line.clover",
+			"begin": "#",
+			"end": "\n"
+		}
+	},
+	"scopeName": "source.clover"
+}

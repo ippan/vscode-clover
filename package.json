@@ -1,0 +1,25 @@
+{
+    "name": "vscode-clover",
+    "displayName": "Clover VSCode Support",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "clover",
+            "aliases": ["Clover", "clover"],
+            "extensions": [".luck"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "clover",
+            "scopeName": "source.clover",
+            "path": "./syntaxes/clover.tmLanguage.json"
+        }]
+    }
+}

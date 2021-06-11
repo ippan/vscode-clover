@@ -1,0 +1,1 @@
+Clover language code highlight for VSCode
