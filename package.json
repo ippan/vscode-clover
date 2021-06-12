@@ -3,6 +3,8 @@
     "displayName": "Clover VSCode Support",
     "description": "",
     "version": "0.0.1",
+    "publisher": "ippan",
+    "repository": "https://github.com/ippan/vscode-clover",
     "engines": {
         "vscode": "^1.57.0"
     },
