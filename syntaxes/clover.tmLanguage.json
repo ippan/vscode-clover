@@ -16,13 +16,13 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.clover",
-				"match": "\\b(include|from|as|end|model|implement|apply|to|public|function|this|local|if|elseif|else|for|in|break|while|return|true|false|null)\\b"
+				"match": "\\b(end|if|elseif|else|for|in|break|while|return|rescue)\\b"
 			}, {
 				"name": "keyword.operator.clover",
 				"match": "\\b(and|or|not)\\b"
 			}, {
 				"name": "keyword.other",
-				"match": "\\b(include|from|as|end|model|implement|apply|to|public|function|this|local|true|false|null)\\b"
+				"match": "\\b(include|from|as|model|implement|apply|to|public|function|this|local|true|false|null)\\b"
 			}]
 		},
 		"strings": {
